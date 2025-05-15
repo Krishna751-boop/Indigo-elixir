@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Indigo Elixir</title>
+  <style>
+    body { margin: 0; font-family: 'Segoe UI', sans-serif; background-color: #f9f9f9; color: #333; }
+    header { background-color: #002244; color: white; padding: 20px; text-align: center; }
+    nav a { margin: 0 15px; color: white; text-decoration: none; font-weight: bold; }
+    section { padding: 40px 20px; max-width: 800px; margin: auto; }
+    h2 { color: #002244; }
+    .product { border: 1px solid #ccc; padding: 20px; margin-top: 20px; border-radius: 10px; background-color: #fff; }
+    .form-group { margin-bottom: 15px; }
+    input, textarea { width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc; }
+    button { background-color: #002244; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
+    footer { background-color: #002244; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Indigo Elixir</h1>
+    <p>Sip the Magic of Nature</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#order">Order</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Indigo Elixir brings you premium Blue Pea Flower Tea — 100% natural, caffeine-free, and full of health benefits. We grow, dry, and pack each flower with care to bring wellness and beauty into your daily life.</p>
+  </section>
+
+  <section id="products">
+    <h2>Our Product</h2>
+    <div class="product">
+      <h3>Blue Pea Flower Tea</h3>
+      <p>Boosts immunity, reduces stress, and detoxifies naturally.</p>
+      <p><strong>Price:</strong> ₹150 (50g pack)</p>
+    </div>
+  </section>
+
+  <section id="order">
+    <h2>Place Your Order</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone</label>
+        <input type="text" id="phone" name="phone" required />
+      </div>
+      <div class="form-group">
+        <label for="address">Address</label>
+        <textarea id="address" name="address" rows="3" required></textarea>
+      </div>
+      <button type="submit">Submit Order</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Phone: 9258169187</p>
+    <p>Instagram: <a href="https://instagram.com" target="_blank">@indigoelixir</a></p>
+    <p>Website: www.indigoelixir.com (coming soon)</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Indigo Elixir. All rights reserved.</p>
+  </footer>
+</body>
+</html>
